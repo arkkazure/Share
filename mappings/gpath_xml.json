@@ -1,0 +1,11 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/xml/shopping"
+    },
+    "response": {
+        "status": 200,
+		"headers": { "Content-Type": "application/xml" },
+        "bodyFileName": "shopping.xml"
+    }
+}
