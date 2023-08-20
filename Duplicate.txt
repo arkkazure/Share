@@ -1,0 +1,12 @@
+
+if has_duplicate_links(links):
+        print("There are duplicate link texts on the webpage.")
+    else:
+        print("There are no duplicate link texts on the webpage.")
+
+
+
+
+def has_duplicate_links(link_elements):
+    link_texts = [link.text for link in link_elements]
+    return len(link_texts) != len(set(link_texts))
