@@ -1,0 +1,5 @@
+# Perform the clear action
+actions.click(input_field)  # Click on the input field
+actions.key_down(Keys.CONTROL).send_keys('a').key_up(Keys.CONTROL)  # Select all content in the field
+actions.send_keys(Keys.BACKSPACE)  # Delete the selected content
+actions.perform()  # Execute the actions
