@@ -10,3 +10,6 @@ if has_duplicate_links(links):
 def has_duplicate_links(link_elements):
     link_texts = [link.text for link in link_elements]
     return len(link_texts) != len(set(link_texts))
+
+
+some thing
