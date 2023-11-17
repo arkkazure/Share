@@ -1,0 +1,1 @@
+nunit3-console SpecFlowFramework.csproj --where "cat=login" -tp "env=dev"

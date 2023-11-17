@@ -1,0 +1,4 @@
+﻿base.url = https://www.advantageonlineshopping.com/
+app.username=AppUserDev1
+app.password=DevPass1
+browser=chrome
